@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(138, 202, 181);
+    color:rgb(60, 9, 9);
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+#navbar {
+    position: fixed;
+    width:200px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgb(18, 0, 0);
+    min-width: 250px;
+    top: 0;
+    left: 0;
+    
+}
+.nav-header{
+    color:rgb(57, 38, 3);
+    margin: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: thin;
+    
+}
+.nav-link {
+    display: block;
+    color:rgb(57, 38, 3);
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+   
+}
+.doc-header {
+    margin-left: 250px;
+    font-size: 20px;
+    
+}
+#main-doc {
+    text-align: left;
+    margin: 0px;
+}
+
+#navbar ul {
+    height: 50%;
+    list-style: none;
+    color: black;
+
+}
+#navbar li {
+    list-style:none;
+    padding: 10px 0 10px 0;
+    
+    
+}
